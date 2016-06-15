@@ -29,7 +29,7 @@ Entries list the class name serving as the entry point to the relevant functiona
 - [X] `CopyArtifact` (`copyartifact`): [JENKINS-24887](https://issues.jenkins-ci.org/browse/JENKINS-24887) in 1.34
 - [ ] `DeployPublisher` (`deployer-framework`): [JENKINS-25976](https://issues.jenkins-ci.org/browse/JENKINS-25976)
 - [X] Analysis publishers (e.g., `FindBugsPublisher`): supported as of `analysis-core` 1.73 and downstream plugins (e.g., `findbugs` 4.62)
-- [ ] `Ant` (`ant`): [JENKINS-26056](https://issues.jenkins-ci.org/browse/JENKINS-26056)
+- [ ] `vAnt` (`ant`): [JENKINS-26056](https://issues.jenkins-ci.org/browse/JENKINS-26056)
 - [ ] `Maven` (home TBD): [JENKINS-26057](https://issues.jenkins-ci.org/browse/JENKINS-26057)
 - [ ] `XShellBuilder` (`xshell`): [JENKINS-26169](https://issues.jenkins-ci.org/browse/JENKINS-26169)
 - [ ] ~~`DockerBuilder` (`docker-build-step`): [JENKINS-26178](https://issues.jenkins-ci.org/browse/JENKINS-26178)~~
@@ -71,6 +71,7 @@ Entries list the class name serving as the entry point to the relevant functiona
 - [ ] `BitbucketBuildStatusNotifier`: (`bitbucket-build-status-notifier`) [JENKINS-33841](https://issues.jenkins-ci.org/browse/JENKINS-33841)
 - [X] `NexusArtifactUploader` (`nexus-artifact-uploader`): supported as of 2.2
 - [ ] `CppcheckPublisher` (`cppcheck`): [JENKINS-34943](https://issues.jenkins-ci.org/browse/JENKINS-35096)
+- [X] `MarathonStep` (`marathon`): supported as of 1.2.1 (https://github.com/mesosphere/jenkins-marathon-plugin)
 
 ## Build wrappers
 
